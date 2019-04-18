@@ -7,4 +7,5 @@ RUN pip install -r /opt/custom_requirements.txt
 
 # Install LibreOffice for report_py3o
 RUN set -x; \
-  apt-get --no-install-recommends install libreoffice
+  apt-get install -y --no-install-recommends \
+    libreoffice
