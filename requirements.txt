@@ -1,2 +1,6 @@
 py3o.template
 py3o.formats
+
+# auth_signup_verify_email
+validate_email
+email_validator
